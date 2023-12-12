@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="../Styles/global.css">
     <link rel="stylesheet" href="../Styles/navbar.css">
+    <link rel="stylesheet" href="../Styles/service.css">
+    <script src="../Scripts/services.js" defer></script>
 </head>
 
 <body>
@@ -83,10 +85,76 @@
                 <span>About</span>
             </a>
         </nav>
+    
     </div>
 
     <main>
-        <h1></h1>
+        <h1>Our Services</h1>
+        <div class="service-container">
+            <div id="service-buttons" class="service-list">
+                <button name="tire-swap" class="service-element" onclick="showServiceInformation(this)">
+                    <span>Tire swap</span>
+                </button>
+                <button name="paintjob" class="service-element" onclick="showServiceInformation(this)">
+                    <span>Paintjob</span>
+                </button>
+                <button name="checkup" class="service-element" onclick="showServiceInformation(this)">
+                    <span>checkup and service</span>
+                </button>
+                <button name="oil-change" class="service-element" onclick="showServiceInformation(this)">
+                    <span>Oil change</span>
+                </button>
+            </div>
+
+            <div id="service-information-list">
+                <div id="service-information-tire-swap" class="service-div">
+                    <div class="service-information">
+                        <span>
+                            Explore seamless tire transitions with our Tire Swap service. 
+                            Drive confidently through every season with us.
+                        </span>
+                    </div>  
+                    <span class="price">49€</span>
+                </div>
+    
+                <div id="service-information-paintjob" class="service-div">
+                    <div class="service-information">
+                        <span>
+                            Discover a new level of automotive aesthetics with our Paintjob service.  
+                            
+                        </span>
+                        <span> 
+                            Our skilled technicians ensure a flawless finish, personalized to your style.
+                        </span>
+                    </div>  
+                    <span class="price">Starting at 399€</span>
+                </div>
+
+                <div id="service-information-checkup" class="service-div">
+                    <div class="service-information">
+                        <span>
+                            Experience automotive peace of mind with our Checkup and Diagnosis service.
+                        </span>
+                        <span>
+                            Our expert technicians meticulously examine your vehicle, ensuring optimal performance.
+                        </span>
+                    </div>  
+                    <span class="price">49€ + 100€/h</span>
+                </div>
+
+                <div id="service-information-oil-change" class="service-div">
+                    <div class="service-information">
+                        <span>
+                            Revitalize your vehicle's heartbeat with our Oil and Filter Change service.
+                        </span>
+                        <span>
+                            With top-quality oils and filters, we ensure optimal performance and protection for your engine.
+                        </span>
+                    </div>  
+                    <span class="price">89€</span>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
