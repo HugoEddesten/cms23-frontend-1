@@ -1,21 +1,23 @@
-.contact-div {
+.contact-main-div {
     display: flex;
-    flex-direction: column;
-
     margin-top: 3em;
-    padding: 2em;
+    padding: 1em;
     margin-bottom: 3em;
-
-
+    min-height: 30em;
     width: 90%;
     border-radius: 1em;
 
     background-color: #313131;
-    color: #e1e1e1;
+    color: #ffffff;
 }
 
-.text-div {
-    margin-top: 5em;
-    margin-bottom: 5em;
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
 }
+
+
+
 
