@@ -43,7 +43,7 @@ a:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-aspect-ratio: 9/12) {
     nav {
         display: flex;
         flex-direction: row;
@@ -60,11 +60,11 @@ a:hover {
         border-top: 1px solid;
 
         width: 100%;
-        top: 90%;
+        top: 50%;
         bottom: 0;
         left: 10%;
         right: 10%;
-        height: 7em;
+        height: 10em;
     }
 
     .nav-div {
